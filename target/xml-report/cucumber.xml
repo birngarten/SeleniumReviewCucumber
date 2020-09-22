@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="11.933">
-    <testcase classname="Parametreli Arama" name="TC03_kullanici googleda arama yapar" time="11.41">
-        <system-out><![CDATA[Given kullanici google sayfasina gider......................................passed
-And kullanici "webdriver" kelimesi arar.....................................passed
-Then kullanici sayfa basliginda "webdriver" kelimesini kontrol eder.........passed
-]]></system-out>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="4" tests="4" time="1.161">
+    <testcase classname="FhcTrip Kayit" name="fhctrip websitesine kayit" time="0.251">
+        <skipped><![CDATA[Given kullanici fhctrip kayit sayfasina gider...............................undefined
+And kullanici username "hamza" girer........................................undefined
+And kullanici email "h@gmail.com" girer.....................................undefined
+And kullanici fullname "hamza yilmaz" girer.................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="FhcTrip Kayit" name="fhctrip websitesine kayit 2" time="0.015">
+        <skipped><![CDATA[Given kullanici fhctrip kayit sayfasina gider...............................undefined
+And kullanici username "iskender" girer.....................................undefined
+And kullanici email "iskender@gmail.com" girer..............................undefined
+And kullanici fullname "iskender d" girer...................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="FhcTrip Kayit" name="fhctrip websitesine kayit 3" time="0.012">
+        <skipped><![CDATA[Given kullanici fhctrip kayit sayfasina gider...............................undefined
+And kullanici username "hakki" girer........................................undefined
+And kullanici email "hakki@gmail.com" girer.................................undefined
+And kullanici fullname "hakki bey" girer....................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="FhcTrip Kayit" name="fhctrip websitesine kayit 4" time="0.036">
+        <skipped><![CDATA[Given kullanici fhctrip kayit sayfasina gider...............................undefined
+And kullanici username "yesim" girer........................................undefined
+And kullanici email "yesim@gmaiul.com" girer................................undefined
+And kullanici fullname "yesim gulmez" girer.................................undefined
+]]></skipped>
     </testcase>
 </testsuite>

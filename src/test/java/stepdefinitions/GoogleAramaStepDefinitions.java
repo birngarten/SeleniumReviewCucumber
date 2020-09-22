@@ -72,7 +72,36 @@ public class GoogleAramaStepDefinitions {
 
     @Then("kullanici sayfa basliginda {string} kelimesini kontrol eder")
     public void kullanici_sayfa_basliginda_kelimesini_kontrol_eder(String string) {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
+        String baslik = Driver.getDriver().getTitle();
+        boolean iceriyorMu = baslik.contains(string);
+        Assert.assertTrue(iceriyorMu);
+
+    }
+    @Given("kullanici {string} arar")
+    public void kullanici_arar(String string) {
+
+        googlePage.aramaKutusu.sendKeys(string + Keys.ENTER);
+//        Driver.getDriver().switchTo().frame(0);
+//        googlePage.iStimmeZu.click();
+
+    }
+
+    @Then("kullanici sayfa basliginda {string} kontrol eder")
+    public void kullanici_sayfa_basliginda_kontrol_eder(String string) {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        String baslik = Driver.getDriver().getTitle();
+        boolean iceriyorMu = baslik.contains(string);
+        Assert.assertTrue(iceriyorMu);
 
     }
 }

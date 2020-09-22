@@ -12,8 +12,8 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@webdriverArama",
-        dryRun = false
+        tags = "@fhctrip",
+        dryRun = true
 )
 
 public class GoogleRunner {
