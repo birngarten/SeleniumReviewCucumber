@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-09-22T16:42:36.215Z",
+        "start_timestamp": "2020-09-22T16:53:34.279Z",
         "line": 11,
         "name": "fhctrip websitesine kayit",
         "description": "",
@@ -13,38 +13,68 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 15304896900,
+              "status": "passed"
             },
             "line": 4,
             "name": "kullanici fhctrip kayit sayfasina gider",
-            "match": {},
+            "match": {
+              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_fhctrip_kayit_sayfasina_gider()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 155904700,
+              "status": "passed"
             },
             "line": 5,
             "name": "kullanici username \"hamza\" girer",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hamza\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_username_girer(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 194878700,
+              "status": "passed"
             },
             "line": 6,
             "name": "kullanici email \"h@gmail.com\" girer",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"h@gmail.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_email_girer(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 245849000,
+              "status": "passed"
             },
             "line": 7,
             "name": "kullanici fullname \"hamza yilmaz\" girer",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hamza yilmaz\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_fullname_girer(java.lang.String)"
+            },
             "keyword": "And "
           }
         ],
@@ -55,7 +85,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-22T16:42:36.566Z",
+        "start_timestamp": "2020-09-22T16:53:50.411Z",
         "line": 12,
         "name": "fhctrip websitesine kayit",
         "description": "",
@@ -65,38 +95,68 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 1043358200,
+              "status": "passed"
             },
             "line": 4,
             "name": "kullanici fhctrip kayit sayfasina gider",
-            "match": {},
+            "match": {
+              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_fhctrip_kayit_sayfasina_gider()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 355308000,
+              "status": "passed"
             },
             "line": 5,
             "name": "kullanici username \"iskender\" girer",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iskender\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_username_girer(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 248846700,
+              "status": "passed"
             },
             "line": 6,
             "name": "kullanici email \"iskender@gmail.com\" girer",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iskender@gmail.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_email_girer(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 202875300,
+              "status": "passed"
             },
             "line": 7,
             "name": "kullanici fullname \"iskender d\" girer",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iskender d\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_fullname_girer(java.lang.String)"
+            },
             "keyword": "And "
           }
         ],
@@ -107,7 +167,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-22T16:42:36.647Z",
+        "start_timestamp": "2020-09-22T16:53:52.275Z",
         "line": 13,
         "name": "fhctrip websitesine kayit",
         "description": "",
@@ -117,38 +177,68 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 2820964400,
+              "status": "passed"
             },
             "line": 4,
             "name": "kullanici fhctrip kayit sayfasina gider",
-            "match": {},
+            "match": {
+              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_fhctrip_kayit_sayfasina_gider()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 233857900,
+              "status": "passed"
             },
             "line": 5,
             "name": "kullanici username \"hakki\" girer",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hakki\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_username_girer(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 241849700,
+              "status": "passed"
             },
             "line": 6,
             "name": "kullanici email \"hakki@gmail.com\" girer",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hakki@gmail.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_email_girer(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 226858500,
+              "status": "passed"
             },
             "line": 7,
             "name": "kullanici fullname \"hakki bey\" girer",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hakki bey\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_fullname_girer(java.lang.String)"
+            },
             "keyword": "And "
           }
         ],
@@ -159,7 +249,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-22T16:42:36.683Z",
+        "start_timestamp": "2020-09-22T16:53:55.812Z",
         "line": 14,
         "name": "fhctrip websitesine kayit",
         "description": "",
@@ -169,38 +259,68 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 1963942200,
+              "status": "passed"
             },
             "line": 4,
             "name": "kullanici fhctrip kayit sayfasina gider",
-            "match": {},
+            "match": {
+              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_fhctrip_kayit_sayfasina_gider()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 297780700,
+              "status": "passed"
             },
             "line": 5,
             "name": "kullanici username \"yesim\" girer",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yesim\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_username_girer(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 208872500,
+              "status": "passed"
             },
             "line": 6,
             "name": "kullanici email \"yesim@gmaiul.com\" girer",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yesim@gmaiul.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_email_girer(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 208872200,
+              "status": "passed"
             },
             "line": 7,
             "name": "kullanici fullname \"yesim gulmez\" girer",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yesim gulmez\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_fullname_girer(java.lang.String)"
+            },
             "keyword": "And "
           }
         ],
