@@ -1,65 +1,47 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/googlearama.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/googlearamaparametre.feature");
 formatter.feature({
-  "name": "Google arama",
+  "name": "Parametreli Arama",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "TC01_kullanici googleda techproeducation aramasi yapar",
+  "name": "TC03_kullanici googleda arama yapar",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@webdriverArama"
+    }
+  ]
 });
 formatter.step({
   "name": "kullanici google sayfasina gider",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "stepdefinitions.GoogleAramaStepDefinitions.kullanici_google_sayfasina_gider()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "arama kutusuna techproeducation yazar",
+  "name": "kullanici \"webdriver\" kelimesi arar",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "stepdefinitions.GoogleAramaStepDefinitions.kullanici_kelimesi_arar(java.lang.String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "arama sonuclari sayfasinin basligini kontrol eder",
+  "name": "kullanici sayfa basliginda \"webdriver\" kelimesini kontrol eder",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "stepdefinitions.GoogleAramaStepDefinitions.kullanici_sayfa_basliginda_kelimesini_kontrol_eder(java.lang.String)"
+});
 formatter.result({
-  "status": "undefined"
-});
-formatter.scenario({
-  "name": "TC02_kullanici googleda selenium aramasi yapar",
-  "description": "",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "name": "kullanici google sayfasina gider",
-  "keyword": "Given "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "arama kutusuna selenium yazar",
-  "keyword": "And "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "arama sonuclari sayfasinin sonuc sayisini kontrol eder",
-  "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 });

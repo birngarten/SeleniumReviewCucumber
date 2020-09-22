@@ -3,87 +3,75 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-09-22T14:21:57.405Z",
+        "start_timestamp": "2020-09-22T15:52:54.983Z",
         "line": 3,
-        "name": "TC01_kullanici googleda techproeducation aramasi yapar",
+        "name": "TC03_kullanici googleda arama yapar",
         "description": "",
-        "id": "google-arama;tc01-kullanici-googleda-techproeducation-aramasi-yapar",
+        "id": "parametreli-arama;tc03-kullanici-googleda-arama-yapar",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 9102725000,
+              "status": "passed"
             },
             "line": 4,
             "name": "kullanici google sayfasina gider",
-            "match": {},
+            "match": {
+              "location": "stepdefinitions.GoogleAramaStepDefinitions.kullanici_google_sayfasina_gider()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 2131081100,
+              "status": "passed"
             },
             "line": 5,
-            "name": "arama kutusuna techproeducation yazar",
-            "match": {},
+            "name": "kullanici \"webdriver\" kelimesi arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"webdriver\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.GoogleAramaStepDefinitions.kullanici_kelimesi_arar(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 998300,
+              "status": "passed"
             },
             "line": 6,
-            "name": "arama sonuclari sayfasinin basligini kontrol eder",
-            "match": {},
+            "name": "kullanici sayfa basliginda \"webdriver\" kelimesini kontrol eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"webdriver\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefinitions.GoogleAramaStepDefinitions.kullanici_sayfa_basliginda_kelimesini_kontrol_eder(java.lang.String)"
+            },
             "keyword": "Then "
           }
-        ]
-      },
-      {
-        "start_timestamp": "2020-09-22T14:21:57.629Z",
-        "line": 9,
-        "name": "TC02_kullanici googleda selenium aramasi yapar",
-        "description": "",
-        "id": "google-arama;tc02-kullanici-googleda-selenium-aramasi-yapar",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
+        ],
+        "tags": [
           {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 10,
-            "name": "kullanici google sayfasina gider",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 11,
-            "name": "arama kutusuna selenium yazar",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 12,
-            "name": "arama sonuclari sayfasinin sonuc sayisini kontrol eder",
-            "match": {},
-            "keyword": "Then "
+            "name": "@webdriverArama"
           }
         ]
       }
     ],
-    "name": "Google arama",
+    "name": "Parametreli Arama",
     "description": "",
-    "id": "google-arama",
+    "id": "parametreli-arama",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/googlearama.feature",
+    "uri": "file:src/test/resources/features/googlearamaparametre.feature",
     "tags": []
   }
 ]

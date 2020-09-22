@@ -11,11 +11,10 @@ import org.junit.runner.RunWith;
                 "junit:target/xml-report/cucumber.xml"
         },
         features = "src/test/resources/features",
-        glue = "spetdefinitions",
+        glue = "stepdefinitions",
+        tags = "@webdriverArama",
         dryRun = false
 )
-
-
 
 public class GoogleRunner {
 

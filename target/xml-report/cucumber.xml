@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="2" tests="2" time="0.695">
-    <testcase classname="Google arama" name="TC01_kullanici googleda techproeducation aramasi yapar" time="0.187">
-        <skipped><![CDATA[Given kullanici google sayfasina gider......................................undefined
-And arama kutusuna techproeducation yazar...................................undefined
-Then arama sonuclari sayfasinin basligini kontrol eder......................undefined
-]]></skipped>
-    </testcase>
-    <testcase classname="Google arama" name="TC02_kullanici googleda selenium aramasi yapar" time="0.028">
-        <skipped><![CDATA[Given kullanici google sayfasina gider......................................undefined
-And arama kutusuna selenium yazar...........................................undefined
-Then arama sonuclari sayfasinin sonuc sayisini kontrol eder.................undefined
-]]></skipped>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="11.933">
+    <testcase classname="Parametreli Arama" name="TC03_kullanici googleda arama yapar" time="11.41">
+        <system-out><![CDATA[Given kullanici google sayfasina gider......................................passed
+And kullanici "webdriver" kelimesi arar.....................................passed
+Then kullanici sayfa basliginda "webdriver" kelimesini kontrol eder.........passed
+]]></system-out>
     </testcase>
 </testsuite>
