@@ -1,21 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="24.516">
-    <testcase classname="Google arama" name="TC01_kullanici googleda techproeducation aramasi yapar" time="13.99">
-        <system-out><![CDATA[Given kullanici google sayfasina gider......................................passed
-And arama kutusuna techproeducation yazar...................................passed
-Then arama sonuclari sayfasinin basligini kontrol eder......................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Google arama" name="TC02_kullanici googleda selenium aramasi yapar" time="3.743">
-        <system-out><![CDATA[Given kullanici google sayfasina gider......................................passed
-And arama kutusuna selenium yazar...........................................passed
-Then arama sonuclari sayfasinin sonuc sayisini kontrol eder.................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Google arama" name="TC03_kullanici googleda darmstadt aramasi yapar" time="6.235">
-        <system-out><![CDATA[Given kullanici google sayfasina gider......................................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.955">
+    <testcase classname="Google arama" name="TC03_kullanici googleda darmstadt aramasi yapar" time="16.478">
+        <failure message="element click intercepted: Element &lt;h3 class=&quot;LC20lb DKV0Md&quot;&gt;...&lt;/h3&gt; is not clickable at point (258, 207). Other element would receive the click: &lt;div class=&quot;bErdLd aID8W wwYr3&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'USER-BILGISAYAR', ip: '192.168.178.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61224}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: e513cc873148c0282cffd83981120e4d" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[Given kullanici google sayfasina gider......................................passed
 And arama kutusuna darmstadt yazar..........................................passed
-Then arama sonuclarinin ilk linkine tiklar..................................passed
-]]></system-out>
+Then arama sonuclarinin ilk linkine tiklar..................................failed
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h3 class="LC20lb DKV0Md">...</h3> is not clickable at point (258, 207). Other element would receive the click: <div class="bErdLd aID8W wwYr3">...</div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER-BILGISAYAR', ip: '192.168.178.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61224}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e513cc873148c0282cffd83981120e4d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at stepdefinitions.GoogleAramaStepDefinitions.arama_sonuclarinin_ilk_linkine_tiklar(GoogleAramaStepDefinitions.java:72)
+	at ✽.arama sonuclarinin ilk linkine tiklar(file:///C:/Users/Administrator/IdeaProjects/SeleniumReviewCucumber/src/test/resources/features/googlearama.feature:19)
+]]></failure>
     </testcase>
 </testsuite>
