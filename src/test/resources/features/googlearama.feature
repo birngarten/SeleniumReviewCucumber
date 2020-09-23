@@ -12,3 +12,8 @@ Feature: Google arama
   Scenario: TC02_kullanici googleda selenium aramasi yapar
     And arama kutusuna selenium yazar
     Then arama sonuclari sayfasinin sonuc sayisini kontrol eder
+
+  @darmstadtArama
+  Scenario: TC03_kullanici googleda darmstadt aramasi yapar
+    And arama kutusuna darmstadt yazar
+    Then arama sonuclarinin ilk linkine tiklar

@@ -1,31 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="24.746">
-    <testcase classname="FhcTrip Kayit" name="fhctrip websitesine kayit" time="16.092">
-        <system-out><![CDATA[Given kullanici fhctrip kayit sayfasina gider...............................passed
-And kullanici username "hamza" girer........................................passed
-And kullanici email "h@gmail.com" girer.....................................passed
-And kullanici fullname "hamza yilmaz" girer.................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="24.516">
+    <testcase classname="Google arama" name="TC01_kullanici googleda techproeducation aramasi yapar" time="13.99">
+        <system-out><![CDATA[Given kullanici google sayfasina gider......................................passed
+And arama kutusuna techproeducation yazar...................................passed
+Then arama sonuclari sayfasinin basligini kontrol eder......................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="FhcTrip Kayit" name="fhctrip websitesine kayit 2" time="1.855">
-        <system-out><![CDATA[Given kullanici fhctrip kayit sayfasina gider...............................passed
-And kullanici username "iskender" girer.....................................passed
-And kullanici email "iskender@gmail.com" girer..............................passed
-And kullanici fullname "iskender d" girer...................................passed
+    <testcase classname="Google arama" name="TC02_kullanici googleda selenium aramasi yapar" time="3.743">
+        <system-out><![CDATA[Given kullanici google sayfasina gider......................................passed
+And arama kutusuna selenium yazar...........................................passed
+Then arama sonuclari sayfasinin sonuc sayisini kontrol eder.................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="FhcTrip Kayit" name="fhctrip websitesine kayit 3" time="3.527">
-        <system-out><![CDATA[Given kullanici fhctrip kayit sayfasina gider...............................passed
-And kullanici username "hakki" girer........................................passed
-And kullanici email "hakki@gmail.com" girer.................................passed
-And kullanici fullname "hakki bey" girer....................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="FhcTrip Kayit" name="fhctrip websitesine kayit 4" time="2.684">
-        <system-out><![CDATA[Given kullanici fhctrip kayit sayfasina gider...............................passed
-And kullanici username "yesim" girer........................................passed
-And kullanici email "yesim@gmaiul.com" girer................................passed
-And kullanici fullname "yesim gulmez" girer.................................passed
+    <testcase classname="Google arama" name="TC03_kullanici googleda darmstadt aramasi yapar" time="6.235">
+        <system-out><![CDATA[Given kullanici google sayfasina gider......................................passed
+And arama kutusuna darmstadt yazar..........................................passed
+Then arama sonuclarinin ilk linkine tiklar..................................passed
 ]]></system-out>
     </testcase>
 </testsuite>

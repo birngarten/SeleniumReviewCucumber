@@ -3,342 +3,206 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-09-22T16:53:34.279Z",
-        "line": 11,
-        "name": "fhctrip websitesine kayit",
+        "line": 3,
+        "name": "Kullanici google sayfasina gider",
         "description": "",
-        "id": "fhctrip-kayit;fhctrip-websitesine-kayit;test-verileri;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 15304896900,
+              "duration": 10424970700,
               "status": "passed"
             },
             "line": 4,
-            "name": "kullanici fhctrip kayit sayfasina gider",
+            "name": "kullanici google sayfasina gider",
             "match": {
-              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_fhctrip_kayit_sayfasina_gider()"
+              "location": "stepdefinitions.GoogleAramaStepDefinitions.kullanici_google_sayfasina_gider()"
             },
             "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 155904700,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "kullanici username \"hamza\" girer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"hamza\"",
-                  "offset": 19
-                }
-              ],
-              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_username_girer(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 194878700,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "kullanici email \"h@gmail.com\" girer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"h@gmail.com\"",
-                  "offset": 16
-                }
-              ],
-              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_email_girer(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 245849000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "kullanici fullname \"hamza yilmaz\" girer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"hamza yilmaz\"",
-                  "offset": 19
-                }
-              ],
-              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_fullname_girer(java.lang.String)"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@fhctrip"
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-22T16:53:50.411Z",
+        "start_timestamp": "2020-09-23T09:38:30.693Z",
+        "line": 7,
+        "name": "TC01_kullanici googleda techproeducation aramasi yapar",
+        "description": "",
+        "id": "google-arama;tc01-kullanici-googleda-techproeducation-aramasi-yapar",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1395460000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "arama kutusuna techproeducation yazar",
+            "match": {
+              "location": "stepdefinitions.GoogleAramaStepDefinitions.arama_kutusuna_techproeducation_yazar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2033457600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "arama sonuclari sayfasinin basligini kontrol eder",
+            "match": {
+              "location": "stepdefinitions.GoogleAramaStepDefinitions.arama_sonuclari_sayfasinin_basligini_kontrol_eder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@googleArama"
+          },
+          {
+            "name": "@techproeducationArama"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Kullanici google sayfasina gider",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1857673700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici google sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.GoogleAramaStepDefinitions.kullanici_google_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-23T09:38:44.711Z",
         "line": 12,
-        "name": "fhctrip websitesine kayit",
+        "name": "TC02_kullanici googleda selenium aramasi yapar",
         "description": "",
-        "id": "fhctrip-kayit;fhctrip-websitesine-kayit;test-verileri;3",
+        "id": "google-arama;tc02-kullanici-googleda-selenium-aramasi-yapar",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1043358200,
+              "duration": 1534663900,
               "status": "passed"
             },
-            "line": 4,
-            "name": "kullanici fhctrip kayit sayfasina gider",
+            "line": 13,
+            "name": "arama kutusuna selenium yazar",
             "match": {
-              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_fhctrip_kayit_sayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 355308000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "kullanici username \"iskender\" girer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"iskender\"",
-                  "offset": 19
-                }
-              ],
-              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_username_girer(java.lang.String)"
+              "location": "stepdefinitions.GoogleAramaStepDefinitions.arama_kutusuna_selenium_yazar()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 248846700,
+              "duration": 346787000,
               "status": "passed"
             },
-            "line": 6,
-            "name": "kullanici email \"iskender@gmail.com\" girer",
+            "line": 14,
+            "name": "arama sonuclari sayfasinin sonuc sayisini kontrol eder",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"iskender@gmail.com\"",
-                  "offset": 16
-                }
-              ],
-              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_email_girer(java.lang.String)"
+              "location": "stepdefinitions.GoogleAramaStepDefinitions.arama_sonuclari_sayfasinin_sonuc_sayisini_kontrol_eder()"
             },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 202875300,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "kullanici fullname \"iskender d\" girer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"iskender d\"",
-                  "offset": 19
-                }
-              ],
-              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_fullname_girer(java.lang.String)"
-            },
-            "keyword": "And "
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@fhctrip"
+            "name": "@googleArama"
+          },
+          {
+            "name": "@seleniumArama"
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-22T16:53:52.275Z",
-        "line": 13,
-        "name": "fhctrip websitesine kayit",
+        "line": 3,
+        "name": "Kullanici google sayfasina gider",
         "description": "",
-        "id": "fhctrip-kayit;fhctrip-websitesine-kayit;test-verileri;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 2820964400,
+              "duration": 1785034400,
               "status": "passed"
             },
             "line": 4,
-            "name": "kullanici fhctrip kayit sayfasina gider",
+            "name": "kullanici google sayfasina gider",
             "match": {
-              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_fhctrip_kayit_sayfasina_gider()"
+              "location": "stepdefinitions.GoogleAramaStepDefinitions.kullanici_google_sayfasina_gider()"
             },
             "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 233857900,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "kullanici username \"hakki\" girer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"hakki\"",
-                  "offset": 19
-                }
-              ],
-              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_username_girer(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 241849700,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "kullanici email \"hakki@gmail.com\" girer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"hakki@gmail.com\"",
-                  "offset": 16
-                }
-              ],
-              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_email_girer(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 226858500,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "kullanici fullname \"hakki bey\" girer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"hakki bey\"",
-                  "offset": 19
-                }
-              ],
-              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_fullname_girer(java.lang.String)"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@fhctrip"
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-22T16:53:55.812Z",
-        "line": 14,
-        "name": "fhctrip websitesine kayit",
+        "start_timestamp": "2020-09-23T09:38:48.464Z",
+        "line": 17,
+        "name": "TC03_kullanici googleda darmstadt aramasi yapar",
         "description": "",
-        "id": "fhctrip-kayit;fhctrip-websitesine-kayit;test-verileri;5",
+        "id": "google-arama;tc03-kullanici-googleda-darmstadt-aramasi-yapar",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1963942200,
+              "duration": 1642981100,
               "status": "passed"
             },
-            "line": 4,
-            "name": "kullanici fhctrip kayit sayfasina gider",
+            "line": 18,
+            "name": "arama kutusuna darmstadt yazar",
             "match": {
-              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_fhctrip_kayit_sayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 297780700,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "kullanici username \"yesim\" girer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"yesim\"",
-                  "offset": 19
-                }
-              ],
-              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_username_girer(java.lang.String)"
+              "location": "stepdefinitions.GoogleAramaStepDefinitions.arama_kutusuna_darmstadt_yazar()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 208872500,
+              "duration": 2802945400,
               "status": "passed"
             },
-            "line": 6,
-            "name": "kullanici email \"yesim@gmaiul.com\" girer",
+            "line": 19,
+            "name": "arama sonuclarinin ilk linkine tiklar",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"yesim@gmaiul.com\"",
-                  "offset": 16
-                }
-              ],
-              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_email_girer(java.lang.String)"
+              "location": "stepdefinitions.GoogleAramaStepDefinitions.arama_sonuclarinin_ilk_linkine_tiklar()"
             },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 208872200,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "kullanici fullname \"yesim gulmez\" girer",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"yesim gulmez\"",
-                  "offset": 19
-                }
-              ],
-              "location": "stepdefinitions.FhcTripStepDefinition.kullanici_fullname_girer(java.lang.String)"
-            },
-            "keyword": "And "
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@fhctrip"
+            "name": "@googleArama"
+          },
+          {
+            "name": "@darmstadtArama"
           }
         ]
       }
     ],
-    "name": "FhcTrip Kayit",
+    "name": "Google arama",
     "description": "",
-    "id": "fhctrip-kayit",
+    "id": "google-arama",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/fhctripkayit.feature",
+    "uri": "file:src/test/resources/features/googlearama.feature",
     "tags": [
       {
-        "name": "@fhctrip",
+        "name": "@googleArama",
         "type": "Tag",
         "location": {
           "line": 1,

@@ -61,6 +61,19 @@ public class GoogleAramaStepDefinitions {
         System.out.println(sonucSayisi);
 
     }
+    @Given("arama kutusuna darmstadt yazar")
+    public void arama_kutusuna_darmstadt_yazar() {
+        googlePage.aramaKutusu.sendKeys("Darmstadt" + Keys.ENTER);
+
+    }
+
+    @Then("arama sonuclarinin ilk linkine tiklar")
+    public void arama_sonuclarinin_ilk_linkine_tiklar() {
+        googlePage.darmstadt.click();
+
+
+    }
+
     @Given("kullanici {string} kelimesi arar")
     public void kullanici_kelimesi_arar(String string) {
         Driver.getDriver().switchTo().frame(0);

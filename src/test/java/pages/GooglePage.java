@@ -20,4 +20,7 @@ public class GooglePage {
     @FindBy(xpath = "(//span[@class='RveJvd snByac'])[3]")
     public WebElement iStimmeZu;
 
+    @FindBy(xpath = "(//h3)[1]")
+    public WebElement darmstadt;
+
 }
